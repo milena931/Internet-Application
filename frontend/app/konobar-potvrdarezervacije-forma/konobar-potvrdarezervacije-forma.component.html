@@ -1,0 +1,15 @@
+
+<h3>Rezervacija {{rezervacija.nazivRestorana}} u {{rezervacija.vreme | date: "dd-MM-yyyy hh:mm"}} za {{rezervacija.brojOsoba}} osobe</h3>
+
+<div>
+    <canvas #canvas width="500" height="300" (click)="odaberiSto($event)" style="border:1px solid #000000;"></canvas>
+</div>
+Iazberite broj stola: <select id="tableNumber" [(ngModel)]="izabraniSto">
+    <option *ngFor="let i of getBrojStolova()" [value]="i">{{i}}</option>
+</select>
+<button (click)="odobri()">Odobri</button> | <button (click)="odbijanje()" [hidden]="odbijBool">Odbij</button> <button (click)="odbij()" [hidden]="!odbijBool">Odbij</button><br>
+<div [hidden]="!odbijBool">Komentar za odbijanje: <input type="text" [(ngModel)]="komentar"></div>
+<span class="error">{{greska}}</span>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>

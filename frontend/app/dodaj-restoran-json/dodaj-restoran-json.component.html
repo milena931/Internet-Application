@@ -1,0 +1,14 @@
+Unesi naziv restorana: <input type="text" [(ngModel)]="naziv"><br>
+Unesi adresu restorana: <input type="text" [(ngModel)]="adresa"><br>
+Unesi tip: <input type="text" [(ngModel)]="tip"><br>
+Unesi opis: <input type="text" [(ngModel)]="opis"><br>
+Unesi kontakt: <input type="text" [(ngModel)]="kontakt"><br>
+Radno vreme: <input type="time" [(ngModel)]="pocetakRadnogVremena"> - <input type="time" [(ngModel)]="krajRadnogVremena"><br>
+Učitaj JSON fajl: <input type="file" (change)="onFileSelected($event)" required><br> <br>
+<div>
+    <canvas #canvas width="500" height="300" style="border:1px solid #000000;"></canvas>
+</div>
+<button (click)="dodajRestoran()">Dodaj restoran</button> <br>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>

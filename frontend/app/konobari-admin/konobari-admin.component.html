@@ -1,0 +1,46 @@
+<h4>Konobari</h4>
+<table class="tabela">
+    <tr>
+        <th>Ime i prezime</th>
+        <th>Adresa</th>
+        <th>Kontakt telefon</th>
+        <th>Restoran</th>
+    </tr>
+    <tr *ngFor="let g of konobari">
+        <td>{{g.ime}} {{g.prezime}}</td>
+        <td>{{g.adresa}}</td>
+        <td>{{g.kontakt_telefon}}</td>
+        <td> <table>
+            <tr *ngFor="let r of restorani">
+                <td *ngIf="r.id==g.restoran">{{r.naziv}} {{r.adresa}}</td>
+            </tr>
+        </table></td>
+    </tr>
+</table>
+<hr>
+<h4>Dodaj konobara</h4>
+Ime: <input type="text" [(ngModel)]="ime"><br>
+Prezime: <input type="text" [(ngModel)]="prezime"><br>
+Korisnicko ime: <input type="text" [(ngModel)]="kor_ime"><br>
+Lozinka: <input type="password" [(ngModel)]="lozinka"><br>
+<span class="error">{{greska_lozinka}}</span>
+Bezbedonosno pitanje u slučaju zaboravljene lozinka: <input type="text" [(ngModel)]="bezbedonosno_pitanje"> 
+Odgovor: <input type="text" [(ngModel)]="odgovor"><br>
+Mejl: <input type="text" [(ngModel)]="mejl"><br>
+Kontakt telefon: <input type="text" [(ngModel)]="kontakt_telefon"><br>
+Adresa: <input type="text" [(ngModel)]="adresa"><br>
+Pol: <select [(ngModel)]="pol">
+    <option value="m">Muski</option>
+    <option value="z">Zenski</option>
+</select><br>
+Broj kreditne kartice: <input type="text" [(ngModel)]="broj_kartice"><br>
+
+Restoran: <select [(ngModel)]="restoran">
+    <option *ngFor="let r of restorani" [value]="r.id">{{r.naziv}}</option>
+</select><br>
+Registracija: <button (click)="registracija()">Dodaj konobara</button><br>
+<span class="error">{{greska_podaci}}</span>
+<br>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>

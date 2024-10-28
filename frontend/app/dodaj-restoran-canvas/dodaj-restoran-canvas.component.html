@@ -1,0 +1,20 @@
+Unesi naziv restorana: <input type="text" [(ngModel)]="naziv"><br>
+Unesi adresu restorana: <input type="text" [(ngModel)]="adresa"><br>
+Unesi tip: <input type="text" [(ngModel)]="tip"><br>
+Unesi opis: <input type="text" [(ngModel)]="opis"><br>
+Unesi kontakt: <input type="text" [(ngModel)]="kontakt"><br>
+Radno vreme: <input type="time" [(ngModel)]="pocetakRadnogVremena"> - <input type="time" [(ngModel)]="krajRadnogVremena"><br>
+<div>
+    <canvas #canvas width="500" height="300" (click)="odaberiMesto($event)" style="border:1px solid #000000;"></canvas>
+</div>
+Dodaj element: <select [(ngModel)]="tipNovogElementa">
+    <option value="sto">sto</option>
+    <option value="kuhinja">kuhinja</option>
+    <option value="toalet">toalet</option>
+</select> <p [hidden]="tipNovogElementa != 'sto'"><input type="number"  [(ngModel)]="brLjudiZaStolom"> </p><button (click)="dodajElement()">Dodaj element</button>
+<span class="error">{{greska}}</span>
+<br>
+<button (click)="dodajRestoran()">Dodaj restoran</button> <br>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>

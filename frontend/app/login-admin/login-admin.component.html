@@ -1,0 +1,6 @@
+<h3>Admin login</h3>
+Korisničko ime: <input type="text" [(ngModel)]="kor_ime"> <br>
+Lozinka: <input type="password" [(ngModel)]="lozinka"> <br>
+<button (click)="prijava()">Prijava</button><br>
+<button (click)="nazad()">Nazad</button>
+<span class="error">{{greska}}</span>
