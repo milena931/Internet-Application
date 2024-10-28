@@ -1,0 +1,60 @@
+<h3>Kutak dobre hrane</h3>
+Broj registrovanih gostiju: {{brojGostiju}}; broj restorana: {{brojRestorana}}<br>
+Broj rezervacija u poslednjih 24h: {{brojRezervacija24h}}<br>
+Broj rezervacija u poslednjih nedelju dana: {{brojRezervacija7dana}}<br>
+Broj rezervacija u poslednjih mesec dana: {{brojRezervacijaMesec}}<br>
+<button (click)="prijava()">Prijava</button>
+
+<h5>Restorani:</h5>
+<table class="tabela">
+    <tr>
+        <th>Naziv</th>
+        <th>Tip</th>
+        <th>Adresa</th>
+        <th>Konobari</th>
+    </tr>
+    <tr *ngFor="let r of restoraniIKonobari">
+        <td>{{r.naziv}}</td>
+        <td>{{r.tip}}</td>
+        <td>{{r.adresa}}</td>
+        <td>
+            <table>
+                <tr *ngFor="let k of r.konobari">
+                    {{k.ime}} {{k.prezime}}
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+Sortiraj: rastuce(podrazumevano je opadajuce) <input type="checkbox" value="rastuce" [(ngModel)]="rastuce"> <br>
+<div class="sort-buttons">
+    <button (click)="sortirajRestorane('naziv')">Po nazivu</button>
+    <button (click)="sortirajRestorane('tip')">Po tipu</button>
+    <button (click)="sortirajRestorane('adresa')">Po adresi</button>
+</div>
+<div>
+    <h5>Pretraga:</h5>
+    Tip: <input type="text" [(ngModel)]="tip"><br>
+    Naziv: <input type="text" [(ngModel)]="naziv"> <br>
+    Adresa: <input type="text" [(ngModel)]="adresa"> <button (click)="pretraziRestorane()">Pretrazi</button>
+    <table [hidden]="filtriraniRestorani.length == 0" class="tabela">
+        <tr>
+            <th>Naziv</th>
+            <th>Tip</th>
+            <th>Adresa</th>
+            <th>Konobari</th>
+        </tr>
+        <tr *ngFor="let r of filtriraniRestorani">
+            <td>{{r.naziv}}</td>
+            <td>{{r.tip}}</td>
+            <td>{{r.adresa}}</td>
+            <td>
+                <table>
+                    <tr *ngFor="let k of r.konobari">
+                        <td>{{k.ime}} {{k.prezime}}</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,30 @@
+<h2>Promena lozinke</h2>
+<div>
+    Unesite korisnicko ime: <input type="text" [(ngModel)]="kor_ime"><br>
+    Da li znate svoju lozinku? <select [(ngModel)]="da">
+        <option value="da">da</option>
+        <option value="ne">ne</option>
+    </select>
+</div>
+<div [hidden]="da=='ne'">
+    <h4>Promena stare lozinke</h4>
+    Unesite staru lozinku: <input type="password" [(ngModel)]="stara"><br>
+    Unesite novu lozinku: <input type="password" [(ngModel)]="nova"><br>
+    Ponovite novu lozinku: <input type="password" [(ngModel)]="nova_ponovo"><br>
+    <button (click)="promeniStaru()">Promeni</button>
+    <span class="error">{{greska}}</span>
+</div>
+<div [hidden]="da == 'da'">
+    <h4>Zaboravili ste lozinku</h4>
+    Da li zelite da odgovorite na bezbedonosno pitanje? <button (click)="prikaziPitanje()">da</button><br>
+    Vase bezbedonosno pitanje: {{pitanje}}<br>
+    Odgovor: <input type="text" [(ngModel)]="odgovor"><br>
+    <button (click)="proveriOdgovor()">Proveri odgovor</button>
+    <div [hidden]="! tacno">
+        Unesite novu lozinku: <input type="password" [(ngModel)]="nova"><br>
+        Ponovite novu lozinku: <input type="password" [(ngModel)]="nova_ponovo"><br>
+        <button (click)="zaboravljena()">Promeni</button>
+    </div>
+    <span class="error">{{greska}}</span>
+</div>
+<button (click)="nazad()">Nazad</button>

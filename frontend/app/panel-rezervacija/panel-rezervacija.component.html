@@ -1,0 +1,14 @@
+<div>
+  Datum i vreme: <input type="datetime-local" [(ngModel)]="vreme"> <button (click)="prikaziPanel()">Prikazi
+    restoran</button>
+</div>
+<div>
+  <canvas #canvas width="500" height="300" (click)="odaberiSto($event)" style="border:1px solid #000000;"></canvas>
+</div>
+
+<div>
+  <input type="number" [(ngModel)]="brojOsoba" min="1" max="6" placeholder="Broj osoba">
+  <button (click)="potvrdiRezervaciju()">Potvrdi rezervaciju</button>
+</div>
+<button (click)="nazad()">Nazad</button><br>
+<button (click)="logout()">LogOut</button> <span class="error">{{greska}}</span>

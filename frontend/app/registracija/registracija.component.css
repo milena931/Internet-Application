@@ -1,0 +1,9 @@
+.file-input {
+  display: none;
+}
+
+.error{
+  color: red;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
