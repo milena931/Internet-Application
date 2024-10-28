@@ -1,0 +1,18 @@
+<h3>Vaša korpa</h3>
+<table class="tabela" [hidden]="korpa.length == 0">
+    <tr>
+        <th>Jelo</th>
+        <th>Cena</th>
+        <th></th>
+    </tr>
+    <tr *ngFor="let j of korpa">
+        <td>{{j.naziv}}</td>
+        <td>{{j.cena}}</td>
+        <td><button (click)="ukloni(j)">Ukloni</button></td>
+    </tr>
+</table>
+<button (click)="poruci()">Dodaj porudzbinu</button> <button (click)="isprazni()">Isprazni korpu</button>
+<span class="error">{{greska}}</span>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>
