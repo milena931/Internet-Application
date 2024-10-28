@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "667db3c169e5b45795d41566"
+  },
+  "ocena": 5,
+  "komentar": "izuzetno",
+  "korisnik": "mica",
+  "restoran": 3,
+  "vreme": "2024-06-26T13:00:00.000Z",
+  "idRez": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667ed5cf421cc4103895b97d"
+  },
+  "ocena": 3,
+  "komentar": "Ništa posebno za tu cenu",
+  "korisnik": "mica",
+  "restoran": 3,
+  "vreme": "2024-06-26T13:00:00.000Z",
+  "idRez": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684344458fe65be0e17f0d8"
+  },
+  "ocena": 5,
+  "komentar": "Najbolja kineska hrana u Beogradu!",
+  "korisnik": "mica",
+  "restoran": 2,
+  "vreme": "2024-06-28T11:00:00.000Z",
+  "idRez": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66843f7758fe65be0e17f1eb"
+  },
+  "ocena": 2,
+  "komentar": "Osoblje nije bilo ljubazno. Hrana je okej.",
+  "korisnik": "vuk",
+  "restoran": 2,
+  "vreme": "2024-06-28T17:00:00.000Z",
+  "idRez": 9,
+  "__v": 0
+}]

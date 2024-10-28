@@ -1,0 +1,508 @@
+[{
+  "_id": {
+    "$oid": "667d8ad04719088b0ccbf2db"
+  },
+  "id": 1,
+  "naziv": "Mićina domaća kuhinja",
+  "tip": "domaća kuhinja",
+  "adresa": "Bulevar Zorana Djindjića 30",
+  "telefon": "0655057907",
+  "brStolova": 10,
+  "raspored": [
+    {
+      "tip_elementa": "sto",
+      "x": 38,
+      "y": 50.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 2,
+      "brojStola": 1
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 134,
+      "y": 96.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 2,
+      "brojStola": 2
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 292,
+      "y": 31.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 2,
+      "brojStola": 3
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 394,
+      "y": 75.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 2,
+      "brojStola": 4
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 420,
+      "y": 174.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 2,
+      "brojStola": 5
+    },
+    {
+      "tip_elementa": "kuhinja",
+      "x": 52,
+      "y": 271.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 435,
+      "y": 263.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 38,
+      "y": 160.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 6
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 191,
+      "y": 35.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 7
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 288,
+      "y": 97.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 8
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 185,
+      "y": 179.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 8,
+      "brojStola": 9
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 292,
+      "y": 172.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 8,
+      "brojStola": 10
+    }
+  ],
+  "pocetakRadnogVremena": "10:00",
+  "krajRadnogVremena": "01:00",
+  "opis": "Srpska tradicionalna hrana",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d8bf3725ca4fd5c2f8992"
+  },
+  "id": 2,
+  "naziv": "Kung Pao",
+  "tip": "kineski",
+  "adresa": "Ustanička 96",
+  "telefon": "0603729658",
+  "brStolova": 11,
+  "raspored": [
+    {
+      "tip_elementa": "kuhinja",
+      "x": 71,
+      "y": 254.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 427,
+      "y": 249.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 428,
+      "y": 37.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 51,
+      "y": 42.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 1
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 165,
+      "y": 39.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 2
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 282,
+      "y": 43.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 3
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 52,
+      "y": 112.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 4
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 159,
+      "y": 115.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 5
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 297,
+      "y": 106.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 6
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 432,
+      "y": 115.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 7
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 55,
+      "y": 188.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 8
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 163,
+      "y": 188.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 9
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 282,
+      "y": 196.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 10
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 403,
+      "y": 187.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 11
+    }
+  ],
+  "pocetakRadnogVremena": "12:00",
+  "krajRadnogVremena": "02:00",
+  "opis": "piletina na 100 načina",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d8c7f725ca4fd5c2f8997"
+  },
+  "id": 3,
+  "naziv": "Sushi Lover",
+  "tip": "japanski",
+  "adresa": "Resavska 16",
+  "telefon": "0621234567",
+  "brStolova": 13,
+  "raspored": [
+    {
+      "tip_elementa": "sto",
+      "x": 39,
+      "y": 40.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 1
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 123,
+      "y": 33.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 2
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 202,
+      "y": 37.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 3
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 293,
+      "y": 38.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 4
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 382,
+      "y": 33.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 5
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 461,
+      "y": 39.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 6
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 34,
+      "y": 115.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 7
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 120,
+      "y": 112.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 8
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 211,
+      "y": 104.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 9
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 314,
+      "y": 111.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 10
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 408,
+      "y": 112.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 11
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 74,
+      "y": 190.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 10,
+      "brojStola": 12
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 369,
+      "y": 186.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 10,
+      "brojStola": 13
+    },
+    {
+      "tip_elementa": "kuhinja",
+      "x": 82,
+      "y": 267.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 402,
+      "y": 254.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    }
+  ],
+  "pocetakRadnogVremena": "11:00",
+  "krajRadnogVremena": "23:00",
+  "opis": "Japanske sushi rolnice koje će vam pomutiti pamet",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667d8d73725ca4fd5c2f899c"
+  },
+  "id": 4,
+  "naziv": "Srpska terasa",
+  "tip": "domaća kuhinja",
+  "adresa": "Bulevar Zorana Djindjića 53",
+  "telefon": "0665556677",
+  "brStolova": 11,
+  "raspored": [
+    {
+      "tip_elementa": "kuhinja",
+      "x": 439,
+      "y": 263.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 442,
+      "y": 186.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 38,
+      "y": 35.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 1
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 142,
+      "y": 30.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 2
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 252,
+      "y": 31.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 3
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 373,
+      "y": 31.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 4
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 464,
+      "y": 36.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 5
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 44,
+      "y": 105.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 6
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 149,
+      "y": 96.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 7
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 256,
+      "y": 99.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 8
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 391,
+      "y": 95.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 10,
+      "brojStola": 9
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 94,
+      "y": 164.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 10
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 259,
+      "y": 166.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 11
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 62,
+      "y": 267.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    }
+  ],
+  "pocetakRadnogVremena": "13:00",
+  "krajRadnogVremena": "03:00",
+  "opis": "Tradicionalna srpska kuhinja na prelepoj terasi uz fenomenalan pogled.",
+  "__v": 0
+}]

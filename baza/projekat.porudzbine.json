@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "667af9283b7d721c23a86ea0"
+  },
+  "restoran": 3,
+  "jela": "maki rolnice, maki rolnice",
+  "vreme": "2024-06-25T17:06:48.787Z",
+  "korisnik": "mica",
+  "status": "odobrena",
+  "cena": 4000,
+  "procenjeno_vreme": "30-40 minuta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667c20d1d3421318dc516fbb"
+  },
+  "restoran": 3,
+  "jela": "maki rolnice",
+  "vreme": "2024-06-26T14:08:17.098Z",
+  "korisnik": "nena",
+  "status": "poslata",
+  "cena": 2000,
+  "procenjeno_vreme": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684317a58fe65be0e17f08a"
+  },
+  "restoran": 1,
+  "jela": "sarma, cevapi",
+  "vreme": "2024-07-02T16:57:30.127Z",
+  "korisnik": "mica",
+  "status": "odobrena",
+  "cena": 2165,
+  "procenjeno_vreme": "30-40 minuta",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6684347d58fe65be0e17f0f3"
+  },
+  "restoran": 1,
+  "jela": "karadjordjeva šnicla, sarma",
+  "vreme": "2024-07-02T17:10:21.119Z",
+  "korisnik": "mica",
+  "status": "odobrena",
+  "cena": 2200,
+  "procenjeno_vreme": "30-40 minuta",
+  "__v": 0
+}]

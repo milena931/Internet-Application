@@ -1,0 +1,123 @@
+
+[
+    {
+      "tip_elementa": "sto",
+      "x": 39,
+      "y": 40.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 1
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 123,
+      "y": 33.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 2
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 202,
+      "y": 37.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 3
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 293,
+      "y": 38.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 4
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 382,
+      "y": 33.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 5
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 461,
+      "y": 39.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 6
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 34,
+      "y": 115.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 7
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 120,
+      "y": 112.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 8
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 211,
+      "y": 104.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 9
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 314,
+      "y": 111.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 10
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 408,
+      "y": 112.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 4,
+      "brojStola": 11
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 74,
+      "y": 190.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 10,
+      "brojStola": 12
+    },
+    {
+      "tip_elementa": "sto",
+      "x": 369,
+      "y": 186.7166748046875,
+      "poluprecnik": 25,
+      "brojLjudiZaStolom": 10,
+      "brojStola": 13
+    },
+    {
+      "tip_elementa": "kuhinja",
+      "x": 82,
+      "y": 267.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    },
+    {
+      "tip_elementa": "toalet",
+      "x": 402,
+      "y": 254.4666748046875,
+      "poluprecnik": 0,
+      "brojLjudiZaStolom": 6,
+      "brojStola": 0
+    }
+  ]

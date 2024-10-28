@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const KonobarController_1 = require("../controllers/KonobarController");
+const konobarRouter = express_1.default.Router();
+konobarRouter.route('/dohvatiNeobradjeneRezervacije').post((req, res) => new KonobarController_1.KonobarController().dohvNeobradjeneRezervacije(req, res));
+konobarRouter.route('/odobriRezervaciju').post((req, res) => new KonobarController_1.KonobarController().odobriRezervaciju(req, res));
+konobarRouter.route('/odobriRezervacijuForma').post((req, res) => new KonobarController_1.KonobarController().odobriRezervacijuForma(req, res));
+konobarRouter.route('/odbijRezervaciju').post((req, res) => new KonobarController_1.KonobarController().odbijRezervaciju(req, res));
+konobarRouter.route('/zaduzenja').post((req, res) => new KonobarController_1.KonobarController().zaduzenja(req, res));
+konobarRouter.route('/potvrdiDolazak').post((req, res) => new KonobarController_1.KonobarController().potvrdiDolazak(req, res));
+konobarRouter.route('/nijeSePojavio').post((req, res) => new KonobarController_1.KonobarController().nijeSePojavio(req, res));
+konobarRouter.route('/produzi').post((req, res) => new KonobarController_1.KonobarController().produzi(req, res));
+konobarRouter.route('/porudzbine').post((req, res) => new KonobarController_1.KonobarController().porudzbine(req, res));
+konobarRouter.route('/odobriPorudzbinu').post((req, res) => new KonobarController_1.KonobarController().odobriPorudzbinu(req, res));
+konobarRouter.route('/odbijPorudzbinu').post((req, res) => new KonobarController_1.KonobarController().odbijPorudzbinu(req, res));
+exports.default = konobarRouter;

@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "66783b1a31a5ac62aeb20e3d"
+  },
+  "restoran": 1,
+  "naziv": "cevapi",
+  "opis": "cevapi na rostilju sa pomfritom i kajmakom",
+  "cena": 965,
+  "slika": "cevapi.jpg"
+},
+{
+  "_id": {
+    "$oid": "66783b1a31a5ac62aeb20e3e"
+  },
+  "restoran": 1,
+  "naziv": "sarma",
+  "opis": "juneće mleveno meso sa kiselim kupusom",
+  "cena": 1200,
+  "slika": "sarma.jpg"
+},
+{
+  "_id": {
+    "$oid": "66783b1a31a5ac62aeb20e3f"
+  },
+  "restoran": 1,
+  "naziv": "karadjordjeva šnicla",
+  "opis": "teleca karadjordjeva snicla punjena kajmakom sunkom i kackavaljem",
+  "cena": 1000,
+  "slika": "karadjordjeva.jpg"
+},
+{
+  "_id": {
+    "$oid": "66783b1a31a5ac62aeb20e40"
+  },
+  "restoran": 3,
+  "naziv": "maki rolnice",
+  "opis": "tanjir sa 16 maki rolnica: 4 losos, 4 tuna, 4 gambori, 4 sa povrcem",
+  "cena": 2000,
+  "slika": "maki.jpg"
+},
+{
+  "_id": {
+    "$oid": "66850a7565139f8c8e4c5c89"
+  },
+  "restoran": 2,
+  "naziv": "Piletina sa bambusom",
+  "cena": 690,
+  "slika": "bambus.jpg",
+  "opis": "piletina sa bambusom i kineskim šitaki pečurkama"
+},
+{
+  "_id": {
+    "$oid": "66850b5a65139f8c8e4c5c8d"
+  },
+  "restoran": 2,
+  "naziv": "beli prinač",
+  "opis": "beli pirinač",
+  "cena": 300,
+  "slika": "pirinac.jpg"
+},
+{
+  "_id": {
+    "$oid": "66850c7c65139f8c8e4c5c8f"
+  },
+  "restoran": 2,
+  "naziv": "sečuan piletina",
+  "opis": "piletina sa povrćem u ljutkastom sečuan sosu",
+  "cena": 800,
+  "slika": "secuan.jpg"
+},
+{
+  "_id": {
+    "$oid": "66850d2b65139f8c8e4c5c91"
+  },
+  "restoran": 2,
+  "naziv": "prolećne rolnice",
+  "opis": "3 prolećne rolnice sa povrćem",
+  "cena": 400,
+  "slika": "rolnice.jpg"
+},
+{
+  "_id": {
+    "$oid": "66850e4865139f8c8e4c5c98"
+  },
+  "restoran": 3,
+  "naziv": "sašimi",
+  "opis": "tuna i losos sašimi",
+  "cena": 1200,
+  "slika": "sasimi.jpg"
+},
+{
+  "_id": {
+    "$oid": "66850edb65139f8c8e4c5c9a"
+  },
+  "restoran": 3,
+  "naziv": "nigiri",
+  "cena": 1500,
+  "opis": "tanjir sa losos, tuna i gambor nigirijem",
+  "slika": "nigiri.jpg"
+},
+{
+  "_id": {
+    "$oid": "668510e665139f8c8e4c5c9c"
+  },
+  "restoran": 4,
+  "naziv": "rostilj ranjir",
+  "opis": "rostilj tanjir za dve osobe",
+  "cena": 1800,
+  "slika": "rostilj.jpg"
+}]
