@@ -1,0 +1,36 @@
+<h4>Restoran {{restoran.naziv}}</h4>
+Adresa: {{restoran.adresa}}<br>
+Tip restorana: {{restoran.tip}}<br>
+Kontakt telefon: {{restoran.telefon}}<br>
+<div [hidden]="oceneRestorana.length == 0">
+    <h5>Komentari</h5>
+    <table class="tabela">
+        <tr>
+            <th>Korisnik: </th>
+            <th>Ocena: </th>
+            <th>Komentar: </th>
+        </tr>
+        <tr *ngFor="let o of oceneRestorana">
+            <td>{{o.ime}} {{o.prezime}}</td>
+            <td>{{o.ocena}}</td>
+            <td>{{o.komentar}}</td>
+        </tr>
+    </table>
+</div>
+<div class="map-container">
+    <div id="map" style="height: 30vh; width: 100%;"></div>
+</div>
+<div>
+    <h5>Rezervacija</h5>
+    Datum i vreme: <input type="datetime-local" [(ngModel)]="vreme"> Broj osoba: <input type="number" [(ngModel)]="broj"><br>
+    Dodatni zahtevi: <textarea [(ngModel)]="opis"></textarea> <button (click)="rezervacija()">Rezervisi</button><span class="error">{{greska}}</span> 
+</div>
+<div>
+    <a routerLink="../panelRezervacija" (click)="panel()">vidi dostupnost</a>
+</div>
+<div>
+    <a routerLink="../jelovnik" (click)="jelovnik()">jelovnik</a>
+</div>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>
