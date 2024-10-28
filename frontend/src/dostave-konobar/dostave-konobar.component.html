@@ -1,0 +1,28 @@
+<h3>Porudzbine za dostavu</h3>
+<table class="tabela" [hidden]="porudzbine.length==0">
+    <tr>
+        <th>Vreme</th>
+        <th>Jela</th>
+        <th>Status</th>
+        <th></th>
+        <th>Vreme dostave</th>
+        <th></th>
+    </tr>
+    <tr *ngFor="let p of porudzbine">
+        <td>{{p.vreme | date: "dd-MM-yyyy hh:mm"}}</td>
+        <td>{{p.jela}}</td>
+        <td>{{p.status}}</td>
+        <td><button (click)="odbij(p)" [disabled]="p.status=='odobrena'">Odbij</button></td>
+        <td><select [(ngModel)]="vremeDostave" [disabled]="p.status=='odobrena'">
+            <option value="20-30 minuta">20-30 minuta</option>
+            <option value="30-40 minuta">30-40 minuta</option>
+            <option value="40-50 minuta">40-50 minuta</option>
+        </select></td>
+        <td><button (click)="potvrdi(p)"[disabled]="p.status=='odobrena'">Odobri</button></td>
+    </tr>
+</table>
+<span class="error">{{greska}}</span>
+
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>

@@ -1,0 +1,36 @@
+<h3>Porudzbine</h3>
+<table class="tabela">
+    <tr>
+        <th>Restoran</th>
+        <th>Sadržaj porudžbine</th>
+        <th>Status</th>
+        <th>Procenjeno vreme dostave</th>
+    </tr>
+    <tr *ngFor="let p of aktuelne">
+        <td>{{p.naziv}}</td>
+        <td>{{p.jela}}</td>
+        <td>{{p.status}}</td>
+        <td>{{p.procenjeno_vreme}}</td>
+    </tr>
+</table>
+<hr>
+<h3>Arhiva porudzbina</h3>
+<table class="tabela">
+    <tr>
+        <th>Restoran</th>
+        <th>Sadržaj porudzbine</th>
+        <th>Status</th>
+        <th>Datum dostave</th>
+        <th>Cena</th>
+    </tr>
+    <tr *ngFor="let p of stare">
+        <td>{{p.naziv}}</td>
+        <td>{{p.jela}}</td>
+        <td>{{p.status}}</td>
+        <td>{{p.vreme | date: 'dd-MM-yyy hh:mm'}}</td>
+        <td>{{p.cena}}</td>
+    </tr>
+</table>
+<button (click)="nazad()">Nazad</button>
+<br>
+<button (click)="logout()">LogOut</button>
